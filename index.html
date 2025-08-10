@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Page with Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Eric Mugo Enhanced HTML5 Page</h1>
+        <p>This page demonstrates HTML5 lists, tables, media, and a fully functional form with built-in validation.</p>
+    </header>
+
+    <!-- ===========================
+         LISTS SECTION
+    =========================== -->
+    <section>
+        <h2>📋 Types of Lists</h2>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML5 Basics</li>
+            <li>CSS Styling</li>
+            <li>Responsive Design</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Build Projects</li>
+        </ol>
+
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language for structuring web pages.</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets for styling web pages.</dd>
+        </dl>
+    </section>
+
+    <!-- ===========================
+         TABLE SECTION
+    ============================ -->
+    <section>
+        <h2>📊 Sample Course Table</h2>
+        <table border="1" cellpadding="8">
+            <caption>Course Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Start Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5 & CSS3</td>
+                    <td>4 Weeks</td>
+                    <td>2025-08-15</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Basics</td>
+                    <td>6 Weeks</td>
+                    <td>2025-09-01</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ===========================
+         MEDIA SECTION
+    ============================ -->
+    <section>
+        <h2>🎬 Media Content</h2>
+
+        <figure>
+            <img src="./Assets/Images/pexels-peter-steiner-1973-560957992-33323358.jpg" alt="Sample Image" width="300" height="300">
+            <figcaption>Sample HTML5 Image</figcaption>
+        </figure>
+
+        <figure>
+            <audio controls>
+                <source src="./Assets/Audio/shandr - Fever (freetouse.com).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <figcaption>Sample HTML5 Audio</figcaption>
+        </figure>
+
+        <figure>
+            <video width="320" height="240" controls>
+                <source src="./Assets/videos/12014123_1080_1920_50fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Sample HTML5 Video</figcaption>
+        </figure>
+    </section>
+
+    <!-- ===========================
+         FORM SECTION
+    ============================ -->
+    <section>
+        <h2>📄 Registration Form</h2>
+        <form action="#" method="post" autocomplete="on">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="3"><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 0712345678" pattern="[0-9]{10}" required><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Preferences</legend>
+
+                <label for="course">Select a Course:</label><br>
+                <select id="course" name="course" required>
+                    <option value="">--Choose a course--</option>
+                    <option value="html">HTML & CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="python">Python Basics</option>
+                </select><br><br>
+
+                <label>Mode of Study:</label><br>
+                <input type="radio" id="online" name="mode" value="online" required>
+                <label for="online">Online</label><br>
+                <input type="radio" id="onsite" name="mode" value="onsite">
+                <label for="onsite">Onsite</label><br><br>
+
+                <label for="notes">Additional Notes:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Any special requirements?"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Terms & Confirmation</legend>
+
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label><br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear Form">
+            </fieldset>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 HTML5 Assignment Demo</p>
+    </footer>
+
+</body>
+</html>

@@ -1,44 +1,72 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ew7e64j9)
-# 📘 Assignment: Enhancing HTML5 Content & Mastering Forms
+# Enhanced HTML5 Page with Lists, Tables, Media & Form
 
-## Overview
+## 📌 Description
+This project demonstrates the use of **advanced HTML5 elements** to build a well-structured, accessible, and interactive web page.  
+It contains:
+- Lists (unordered, ordered, description)
+- A semantic HTML table
+- Embedded media (image, audio, video)
+- A fully functional HTML5 form with native validation
 
-This assignment focuses on elevating your HTML5 skills by working with advanced content elements and mastering the creation, structure, and validation of web forms. You will practice using lists, tables, and media to enrich page content, and then dive deep into building dynamic, user-friendly forms powered by native HTML5 features.
+The form is designed for usability, accessibility, and error prevention **without using JavaScript**.
 
-## Objectives
+---
 
-You are expected to demonstrate the ability to:
+## 🖼️ Features
+### ✅ Lists
+- **Unordered List** for bullet points
+- **Ordered List** for steps or sequences
+- **Description List** for term/definition pairs
 
-* Use lists and tables effectively to organize content for clarity and accessibility.
-* Embed media content such as images, audio, or video using semantic HTML5 elements.
-* Build structured HTML5 forms that are both usable and visually intuitive.
-* Apply various HTML5 form attributes to improve user interaction.
-* Use built-in validation techniques to minimize incorrect data input without relying on JavaScript.
+### ✅ Table
+- Semantic table with `<thead>`, `<tbody>`, and `<caption>`
+- Proper use of headings for clarity
 
-## Instructions
+### ✅ Media
+- Image with `<figure>` & `<figcaption>`
+- HTML5 audio player
+- HTML5 video player
 
-Design a simple multi-section web page that showcases the use of lists, tables, and media, followed by a complete HTML5 form. The page should reflect thoughtful structure, usability, and clarity.
+### ✅ HTML5 Form
+- Structured using `<fieldset>` and `<legend>`
+- Inputs include:  
+  - Text  
+  - Email  
+  - Telephone (with pattern validation)  
+  - Date picker  
+  - Dropdown (`select`)  
+  - Radio buttons  
+  - Checkbox  
+  - Textarea  
+- Native HTML5 validation attributes:  
+  `required`, `minlength`, `pattern`, `placeholder`, `autocomplete`
 
-Your form should include various input types, make use of labels and fieldsets for accessibility, and apply HTML5 validation rules through attributes like `required`, `type`, `minlength`, `pattern`, and others.
+---
 
-Avoid using JavaScript for validation—rely solely on native HTML5 capabilities.
+## 📂 File Structure
 
-## Deliverables
+enhanced-form.html # Main HTML file
+README.md # Documentation
+sample-audio.mp3 # Sample audio file (optional)
+sample-video.mp4 # Sample video file (optional)
 
-Submit a single HTML file named `enhanced-form.html`. It should include:
+--
 
-* Well-structured content using lists, tables, and media.
-* A complete HTML5 form including a variety of input fields.
-* Correct use of form attributes such as `placeholder`, `required`, `autocomplete`, and `readonly`.
-* HTML5 validation features implemented correctly across all relevant fields.
-* A clear, accessible layout using semantic tags.
+## 🚀 How to Run
+1. Save the file as `enhanced-form.html`.
+2. Open the file in a web browser (e.g., Chrome, Firefox, Edge).
+3. Try filling out and submitting the form — HTML5 will validate inputs automatically.
 
-## Tips
+---
 
-* Proper and meaningful use of lists, tables, and media.
-* Clarity and accessibility of form structure.
-* Correct use of form elements and attributes.
-* Effective application of native HTML5 validation.
-* Clean, well-indented, and maintainable HTML code.
+## 📚 Learning Points
+- Organizing page content using **semantic HTML elements**
+- Creating accessible **forms** without JavaScript validation
+- Using **HTML5 media embedding** for multimedia content
+- Applying **HTML5 input attributes** for better UX and data accuracy
 
+---
 
+## ✍️ Author
+**Eric Gitonga Mugo**  
+[LinkedIn Profile](http://www.linkedin.com/in/ericgitongamugo)
